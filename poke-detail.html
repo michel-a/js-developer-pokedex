@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,26 +20,15 @@
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/pokedex.css">
 </head>
-
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <h1 id="pokeName"></h1>
 
-        <ol id="pokemonList" class="pokemons">
-            <!-- ..... Pokemons here ..... -->
-        </ol>
-
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
-        </div>
+        <section id="pokemonDesc" class="pokemons">
+        </section>
     </section>
 
-    <!-- Nosso JS -->
-    <script src="./assets/js/pokemon-model.js"></script>
-    <script src="./assets/js/poke-api.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <!-- JS -->
+    <script src="./assets/js/poke-detail.js"></script>
 </body>
-
 </html>

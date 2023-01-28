@@ -163,3 +163,22 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+/* ================================== */
+
+a {
+    text-decoration: none;
+}
+
+.pokemon-detail {
+    margin: 0 auto;
+}
+
+.description {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
